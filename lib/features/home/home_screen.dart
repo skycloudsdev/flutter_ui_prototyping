@@ -8,15 +8,8 @@ class HomeScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final games = [
-      (name: 'Breakout', route: '/breakout'),
-      (name: 'Snake', route: '/snake'),
-      (name: 'Tic Tac Toe', route: '/tic_tac_toe'),
-      (name: 'Wordle', route: '/wordle'),
-      (name: '2048', route: '/2048'),
-      (name: 'Tetris', route: '/tetris'),
-      (name: 'Infinite Runner', route: '/runner'),
-      (name: '2D Shooter', route: '/shooter'),
-      (name: 'Tower Defense', route: '/tower_defense'),
+      (name: 'Schedule', route: '/schedule'),
+      (name: 'Bill Splitter', route: '/bill-splitter'),
     ];
 
     return Scaffold(
