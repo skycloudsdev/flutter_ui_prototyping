@@ -1,0 +1,23 @@
+name: flutter_ui_prototyping
+description: This is a lab application. The main purpose of this app is to experiment with AI agents and their strengths over ui design.
+version: 1.0.0+1
+publish_to: none
+environment:
+  sdk: ^3.9.0
+  flutter: ^3.35.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_bloc: ^9.1.1
+  flutter_native_splash: ^2.4.7
+
+dev_dependencies:
+  bloc_test: ^10.0.0
+  flutter_test:
+    sdk: flutter
+  mocktail: ^1.0.4
+
+flutter:
+  generate: true
+  uses-material-design: true
