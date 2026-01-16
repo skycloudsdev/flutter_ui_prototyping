@@ -10,6 +10,7 @@ class HomeScreen extends StatelessWidget {
     final games = [
       (name: 'Schedule', route: '/schedule'),
       (name: 'Bill Splitter', route: '/bill-splitter'),
+      (name: 'Finger Picker', route: '/finger-picker'),
     ];
 
     return Scaffold(
