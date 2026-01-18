@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_ui_prototyping/features/bill_splitter/bill_splitter.dart';
+import 'package:flutter_ui_prototyping/features/canvas_editor/canvas_editor.dart';
 import 'package:flutter_ui_prototyping/features/finger_picker/finger_picker.dart';
 import 'package:flutter_ui_prototyping/features/home/home.dart';
 import 'package:flutter_ui_prototyping/features/schedule/schedule.dart';
@@ -12,5 +13,6 @@ class AppRouter {
     ScheduleScreen.id: (_) => const ScheduleScreen(),
     BillSplitterHomeScreen.id: (_) => const BillSplitterHomeScreen(),
     FingerPickerScreen.id: (_) => const FingerPickerScreen(),
+    CanvasEditorScreen.id: (_) => const CanvasEditorScreen(),
   };
 }

@@ -11,6 +11,7 @@ class HomeScreen extends StatelessWidget {
       (name: 'Schedule', route: '/schedule'),
       (name: 'Bill Splitter', route: '/bill-splitter'),
       (name: 'Finger Picker', route: '/finger-picker'),
+      (name: 'Canvas Editor', route: '/canvas-editor'),
     ];
 
     return Scaffold(
